@@ -9,18 +9,19 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <div>
+      <div class="brand">
         <h1>Ga Hee Hong</h1>
         <p class="tagline">Ph.D. Student in Korea University School of Cybersecurity</p>
       </div>
+
       <nav class="nav">
-        <a href="#about">About Me</a>
-        <a href="#research">Research Interests</a>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
         <a href="#education">Education</a>
         <a href="#publications">Publications</a>
         <a href="#patents">Patents</a>
         <a href="#awards">Awards</a>
-        <a href="#experience">Other Experience</a>
+        <a href="#experience">Experience</a>
       </nav>
     </div>
   </header>
@@ -28,137 +29,223 @@
   <section class="hero">
     <div class="container hero-inner">
       <div class="hero-text">
-        <h2>Hello, I'm Ga Hee Hong</h2>
-        <p>
-          I am a Ph.D. student at the School of Cybersecurity, Korea University. My research interests include
-          post-quantum cryptography, secure communication protocol, and lattice hardness analysis.
+        <p class="eyebrow">Academic Homepage</p>
+        <h2>Ga Hee Hong</h2>
+        <p class="hero-summary">
+          I am a Ph.D. student at the School of Cybersecurity, Korea University.
+          My research interests include post-quantum cryptography, secure communication
+          protocols, and lattice hardness analysis.
         </p>
-        <p>
-          Email: <a href="mailto:your-email@example.com">hongh@korea.ac.kr</a><br>
-          GitHub: <a href="https://github.com/GHH33" target="__blank">GHH33</a><br>
-          Google Scholar: <a href="https://scholar.google.com/citations?user=9f57yPkAAAAJ&hl=ko" target="_blank">Scholar Profile</a>
-        </p>
+
+        <div class="contact-grid">
+          <div class="contact-item">
+            <span class="contact-label">Email</span>
+            <a href="mailto:hongh@korea.ac.kr">hongh@korea.ac.kr</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">GitHub</span>
+            <a href="https://github.com/GHH33" target="_blank" rel="noopener noreferrer">GHH33</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Google Scholar</span>
+            <a href="https://scholar.google.com/citations?user=9f57yPkAAAAJ&hl=ko" target="_blank" rel="noopener noreferrer">Scholar Profile</a>
+          </div>
+        </div>
       </div>
+
       <div class="hero-image">
-        <img src="profile.jpg" alt="Profile photo of Your Name">
+        <img src="profile.jpg" alt="Profile photo of Ga Hee Hong">
       </div>
     </div>
   </section>
 
-  <main class="container">
-    <section id="about" class="card">
-      <h2>About Me</h2>
+  <main class="container main-content">
+    <section id="about" class="section-card">
+      <div class="section-heading">
+        <h2>About Me</h2>
+      </div>
       <p>
-        I am a Ph.D. student at the School of Cybersecurity, Korea University, specializing in post-quantum cryptography(PQC).
-        My research focuses on designing secure and efficient PQC schemes and studying how they can be effectively integrated into real-world systems, 
-        such as communication protocols. I am particularly interested in the intersection of cryptographic theory and its practical deployment, including 
-        applications in secure communications and post-quantum network architectures. I aim to contribute to building cryptographic systems 
-        that remain secure in the quantum era, with both strong theoretical foundations and practical applicability.
+        I am a Ph.D. student at the School of Cybersecurity, Korea University,
+        specializing in post-quantum cryptography (PQC). My research focuses on
+        designing secure and efficient PQC schemes and studying how they can be
+        effectively integrated into real-world systems such as communication protocols.
       </p>
     </section>
 
-    <section id="research" class="card">
-      <h2>Research Interests</h2>
-      <ul>
-        <li>Post-Quantum Cryptography</li>
-        <li>Lattice-Based Cryptography</li>
-        <li>Lattice Hardness Probelm Analysis</li>
-        <li>Secure Communication Protocols</li>
-        <li>Privacy-Preserving Systems</li>
-      </ul>
+    <section id="research" class="section-card">
+      <div class="section-heading">
+        <h2>Research Interests</h2>
+      </div>
+      <div class="tag-list">
+        <span class="tag">Post-Quantum Cryptography</span>
+        <span class="tag">Lattice-Based Cryptography</span>
+        <span class="tag">Lattice Hardness Problem Analysis</span>
+        <span class="tag">Secure Communication Protocols</span>
+        <span class="tag">Privacy-Preserving Systems</span>
+      </div>
     </section>
 
-    <section id="education" class="card">
-      <h2>Education</h2>
-      <ul>
-        <li>
-          <strong>Ph.D. in Information Security</strong><br>
-          Korea University, 2025–Present
-        </li>
-        <li>
-          <strong>M.S. in Information Security</strong><br>
-          Korea University, 2023–2025
-        </li>
-        <li>
-          <strong>B.S. in Mathematics</strong><br>
-          Sungshin Women's University, 2018-2025
-        </li>
-      </ul>
+    <section id="education" class="section-card">
+      <div class="section-heading">
+        <h2>Education</h2>
+      </div>
+
+      <div class="entry-list">
+        <article class="entry">
+          <div class="entry-main">
+            <h3>Ph.D. in Information Security</h3>
+            <p>Korea University</p>
+          </div>
+          <div class="entry-meta">2025–Present</div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-main">
+            <h3>M.S. in Information Security</h3>
+            <p>Korea University</p>
+          </div>
+          <div class="entry-meta">2023–2025</div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-main">
+            <h3>B.S. in Mathematics</h3>
+            <p>Sungshin Women's University</p>
+          </div>
+          <div class="entry-meta">2018–2025</div>
+        </article>
+      </div>
     </section>
 
-    <section id="publications" class="card">
-      <h2>Publications</h2>
-
-      <div class="subsection">
+    <section id="publications" class="section-card">
+      <div class="section-heading">
+        <h2>Publications</h2>
+      </div>
+    
+      <div class="pub-group">
         <h3>Under Review</h3>
-        <ol>
-          <li>
-            <strong>Ga Hee Hong</strong>, Joo Woo, Jonghyun Kim, Minkyu Kim, Hochang Lee, Jong Hwan Park, “More NTRU+Sign Signatures from Cyclotomic Trinomials,” under review.
-          </li>
-        </ol>
+    
+        <article class="pub-item">
+          <p class="pub-title">“More NTRU+Sign Signatures from Cyclotomic Trinomials”</p>
+          <p class="pub-authors">
+            <strong>Ga Hee Hong</strong>, Joo Woo, Jonghyun Kim, Minkyu Kim, Hochang Lee, Jong Hwan Park
+          </p>
+          <p class="pub-venue">Under review</p>
+        </article>
       </div>
-
-      <div class="subsection">
+    
+      <div class="pub-group">
         <h3>International Journals & Conferences</h3>
-        <ol>
-          <li>
-            Minki Hhan, <strong>Ga Hee Hong</strong>, Jiseung Kim, Changmin Lee, Jeonghwan Lee, “From Perfect to Apporximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight,” <em>IEEE Symposium on Security and Privacy</em>, 2026.
-          </li>
-          <li>
-            <strong>Ga Hee Hong</strong>, Yesol Lee, Changmin Lee, Jong Hwan Park, “Experimental evaluation of PQ-WireGuard and PQ-IPsec over LEO satellite networks,” <em>ICT Express</em>, 2026.
-          </li>
-          <li>
-            Joo Woo, Jonghyun Kim, <strong>Ga Hee Hong</strong>, Seungwoo Lee, Minkyu Kim, Hochang Lee, Jong Hwan Park, “NTRU+Sign: Compact NTRU-Based Signatures Using Bimodal Distribution,” <em>Designs,Codes and Cryptography</em>, 2025.
-          </li>
-        </ol>
+    
+        <article class="pub-item">
+          <p class="pub-title">
+            <a href="https://sp2026.ieee-security.org/accepted-papers.html" target="_blank" rel="noopener noreferrer">
+              “From Perfect to Approximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight”
+            </a>
+          </p>
+          <p class="pub-authors">
+            Minki Hhan, <strong>Ga Hee Hong</strong>, Jiseung Kim, Changmin Lee, Jeonghwan Lee
+          </p>
+          <p class="pub-venue"><em>IEEE Symposium on Security and Privacy</em>, 2026</p>
+        </article>
+    
+        <article class="pub-item">
+          <p class="pub-title">
+            <a href="https://www.sciencedirect.com/science/article/pii/S2405959526000457" target="_blank" rel="noopener noreferrer">
+              “Experimental Evaluation of PQ-WireGuard and PQ-IPsec over LEO Satellite Networks”
+            </a>
+          </p>
+          <p class="pub-authors">
+            <strong>Ga Hee Hong</strong>, Yesol Lee, Changmin Lee, Jong Hwan Park
+          </p>
+          <p class="pub-venue"><em>ICT Express</em>, 2026</p>
+        </article>
+    
+        <article class="pub-item">
+          <p class="pub-title">
+            <a href="https://link.springer.com/article/10.1007/s10623-025-01739-0" target="_blank" rel="noopener noreferrer">
+              “NTRU+Sign: Compact NTRU-Based Signatures Using Bimodal Distribution”
+            </a>
+          </p>
+          <p class="pub-authors">
+            Joo Woo, Jonghyun Kim, <strong>Ga Hee Hong</strong>, Seungwoo Lee, Minkyu Kim, Hochang Lee, Jong Hwan Park
+          </p>
+          <p class="pub-venue"><em>Designs, Codes and Cryptography</em>, 2025</p>
+        </article>
       </div>
-
-      <div class="subsection">
+    
+      <div class="pub-group">
         <h3>Domestic Journals & Conferences</h3>
-        <ol>
-          <li>
-            <strong>Ga Hee Hong</strong>, Joo Woo, Jong Hwan Park, “KpqC 공모전에 제출된 Fiat-Shamir with aborts 구조의 격자 기반 서명 기법 분석,” <em>한국정보보호학회 학회지</em>, 2023.
-          </li>
-        </ol>
+    
+        <article class="pub-item">
+          <p class="pub-title">
+            “KpqC 공모전에 제출된 Fiat-Shamir with Aborts 구조의 격자 기반 서명 기법 분석”
+          </p>
+          <p class="pub-authors">
+            <strong>Ga Hee Hong</strong>, Joo Woo, Jong Hwan Park
+          </p>
+          <p class="pub-venue"><em>한국정보보호학회 학회지</em>, 2023</p>
+        </article>
       </div>
     </section>
 
-    <section id="patents" class="card">
-      <h2>Patents</h2>
-      <ul>
-        <li>
-          <strong>Ga Hee Hong</strong>, Jonghyun Kim, Jong Hwan Park, “Post-Quantum Lightweight Certificates for Resource-constrained Devices,” Korea, 2026.
-        </li>
-        <li>
-          Joo Woo, Jonghyun Kim, <strong>Ga Hee Hong</strong>, Seungwoo Lee, Kwangsu Lee, Jong Hwan Park, “METHOD AND APPARATUS FOR CALCULATING UPPER THRESHOLD VALUE, AND METHOD AND APPARATUS FOR GENERATING SIGNATURE USING THE SAME,” Korea, 2025.
-        </li>
-        <li>
-          Luong Duc Anh, Seungwoo Lee, <storng>Ga Hee Hong</storng>, Dong Hoon Lee, Jong Hwan Park, “DEVICE AND METHOD FOR DISTRIBUTED KEY GENERATION USING TWO-ROUND SECRET SHARING,” Korea, 2024.
-        </li>
-      </ul>
+    <section id="patents" class="section-card">
+      <div class="section-heading">
+        <h2>Patents</h2>
+      </div>
+
+      <div class="entry-list">
+        <article class="entry stacked">
+          <div class="entry-main">
+            <h3>“Post-Quantum Lightweight Certificates for Resource-Constrained Devices”</h3>
+            <p><strong>Ga Hee Hong</strong>, Jonghyun Kim, Jong Hwan Park</p>
+          </div>
+          <div class="entry-meta">Korea, 2026</div>
+        </article>
+
+        <article class="entry stacked">
+          <div class="entry-main">
+            <h3>“METHOD AND APPARATUS FOR CALCULATING UPPER THRESHOLD VALUE, AND METHOD AND APPARATUS FOR GENERATING SIGNATURE USING THE SAME”</h3>
+            <p>Joo Woo, Jonghyun Kim, <strong>Ga Hee Hong</strong>, Seungwoo Lee, Kwangsu Lee, Jong Hwan Park</p>
+          </div>
+          <div class="entry-meta">Korea, 2025</div>
+        </article>
+
+        <article class="entry stacked">
+          <div class="entry-main">
+            <h3>“DEVICE AND METHOD FOR DISTRIBUTED KEY GENERATION USING TWO-ROUND SECRET SHARING”</h3>
+            <p>Luong Duc Anh, Seungwoo Lee, <strong>Ga Hee Hong</strong>, Dong Hoon Lee, Jong Hwan Park</p>
+          </div>
+          <div class="entry-meta">Korea, 2024</div>
+        </article>
+      </div>
     </section>
 
-    <section id="awards" class="card">
-      <h2>Awards</h2>
-      <ul>
-        <li>
-          <strong>Special Award, National Cryptography Contest(KpqC Track), 2025</strong><br>
-          Awarded for the paper <em>"More NTRU+Sign Signatures from Cyclotomic Trinomials"</em>
-        </li>
-      </ul>
+    <section id="awards" class="section-card">
+      <div class="section-heading">
+        <h2>Awards</h2>
+      </div>
+
+      <article class="entry stacked">
+        <div class="entry-main">
+          <h3>Special Award, National Cryptography Contest (KpqC Track)</h3>
+          <p>Awarded for the paper <em>“More NTRU+Sign Signatures from Cyclotomic Trinomials”</em></p>
+        </div>
+        <div class="entry-meta">2025</div>
+      </article>
     </section>
 
-    <section id="experience" class="card">
-      <h2>Other Experience</h2>
-      <ul>
-        <li>TBC</li>
-      </ul>
+    <section id="experience" class="section-card">
+      <div class="section-heading">
+        <h2>Other Experience</h2>
+      </div>
+      <p class="muted">To be updated.</p>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>© 2026 Your Name. All rights reserved.</p>
+      <p>© 2026 Ga Hee Hong. All rights reserved.</p>
     </div>
   </footer>
 </body>
